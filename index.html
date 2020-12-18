@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>free5GRAN: Main Page</title>
+<title>free5GRAN: free5GRAN</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -83,10 +83,39 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">free5GRAN Documentation</div>  </div>
+<div class="title"><a class="el" href="namespacefree5_g_r_a_n.html">free5GRAN</a> </div>  </div>
 </div><!--header-->
 <div class="contents">
-</div><!-- contents -->
+<div class="textblock"><p><a class="el" href="namespacefree5_g_r_a_n.html">free5GRAN</a> is an open-source 5G RAN stack. The current version includes a receiver which decodes MIB &amp; SIB1 data. It also acts as a cell scanner. <a class="el" href="namespacefree5_g_r_a_n.html">free5GRAN</a> works in SA mode.</p>
+<p><a class="el" href="namespacefree5_g_r_a_n.html">free5GRAN</a> includes a library which can be reused for further developments. Documentation is available HERE.</p>
+<h2>Installation &amp; Running</h2>
+<h3>Requirements</h3>
+<p>Before compiling, make sure that the following libraries are installed:</p><ul>
+<li>cmake</li>
+<li>libfftw3</li>
+<li>libconfig++</li>
+<li>boost</li>
+</ul>
+<p>On ubuntu, those libraries can be installed via: </p><div class="fragment"><div class="line">sudo apt-get install cmake libfftw3-dev libconfig++-dev libboost-program-options-dev libboost-log-dev</div></div><!-- fragment --><h3>Radio frontend</h3>
+<p>We currently support USRP B210. <code>libuhd</code> and <code>libuhd-dev</code> are required. They can be installed on Ubuntu via: </p><div class="fragment"><div class="line">sudo apt-get install libuhd libuhd-dev</div></div><!-- fragment --><h3>Compiling</h3>
+<p><a class="el" href="namespacefree5_g_r_a_n.html">free5GRAN</a> executable can be compiled from sources with the following commands: </p><div class="fragment"><div class="line">git clone https://github.com/free5G/free5GRAN.git</div><div class="line">cd free5GRAN</div><div class="line">mkdir files</div><div class="line">mkdir build</div><div class="line">cd build</div><div class="line">mkdir output_files</div><div class="line">cmake ..</div><div class="line">make</div></div><!-- fragment --><h3>Configuration and running</h3>
+<p>Two functions are supported by <a class="el" href="namespacefree5_g_r_a_n.html">free5GRAN</a>.</p>
+<h4>Cell search</h4>
+<p>Searching a cell with pre-defined parameters. Example config file is provided (<code>free5GRAN/config/search_cell.cfg</code>).</p>
+<h4>Band scanning</h4>
+<p>Scanning one or more 5G NR bands. Example config file is provided (<code>free5GRAN/config/scan_band.cfg</code>).</p>
+<h3>USRP configuration</h3>
+<p>Before running <a class="el" href="namespacefree5_g_r_a_n.html">free5GRAN</a>, USRP B210 device has to be configured:</p><ul>
+<li>Run <code>uhd_find_devices</code></li>
+<li>Find the device you want to use</li>
+<li>Copy the <code>serial</code> field of the device and paste it in the config file.</li>
+</ul>
+<p>To run <a class="el" href="namespacefree5_g_r_a_n.html">free5GRAN</a>: <code>sudo ./free5GRAN ../config/CONFIG_FILE</code></p>
+<h3>Debugging</h3>
+<p><a class="el" href="namespacefree5_g_r_a_n.html">free5GRAN</a> writes logs in <code>build/free5GRAN.log</code>. It can be used for debugging. Foremost, free5RGAN writes some data files in <code>free5gran/build/output_files</code> directory. For plotting those files, run <code>python analyse.py</code> in project <code>free5gran/</code> directory. This python script generates files that are stored in <code>free5gran/files</code> directory.</p>
+<h2>Testing note</h2>
+<p><a class="el" href="namespacefree5_g_r_a_n.html">free5GRAN</a> has been successfully tested on Ubuntu 18.04 with USRP B210. It is currently under active development, which means that it might not be fully stable. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
