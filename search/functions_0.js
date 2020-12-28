@@ -13,6 +13,7 @@ var searchData=
   ['compute_5fldpc_5fbase_5fgraph',['compute_ldpc_base_graph',['../namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a1a38629e359fffd65a17a8cedc792f3e',1,'free5GRAN::phy::transport_channel']]],
   ['compute_5fn_5fpolar_5fcode',['compute_N_polar_code',['../namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#ab1208633ad7fdd78274c98d26cef1990',1,'free5GRAN::phy::transport_channel']]],
   ['compute_5fnre',['compute_nre',['../namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#abda860f6b1be9c0b0c058c7ebdcf878b',1,'free5GRAN::phy::signal_processing']]],
+  ['compute_5fpbch_5findexes',['compute_pbch_indexes',['../namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a1f98e6756a6e4eb14a6033f879f561e6',1,'free5GRAN::phy::physical_channel']]],
   ['compute_5fpdcch_5ft0_5fss_5fmonitoring_5foccasions',['compute_pdcch_t0_ss_monitoring_occasions',['../namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#adb1e861c73be73affb913c0ea5e63a81',1,'free5GRAN::phy::signal_processing']]],
   ['compute_5fphase_5fdecomp',['compute_phase_decomp',['../namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#a107f440c7c9c019292bb4119654a0bb3',1,'free5GRAN::phy::signal_processing']]],
   ['compute_5frb_5fstart_5flrb_5fdci',['compute_rb_start_lrb_dci',['../namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#a234694d291b8803d5a86ffc6a25efdc4',1,'free5GRAN::phy::signal_processing']]],
