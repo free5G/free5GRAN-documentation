@@ -99,6 +99,10 @@ Functions</h2></td></tr>
 <tr class="separator:a5aaf35eeb79c2023e8c9550eaa8e5c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f98e6756a6e4eb14a6033f879f561e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a1f98e6756a6e4eb14a6033f879f561e6">compute_pbch_indexes</a> (int ***ref, int pci)</td></tr>
 <tr class="separator:a1f98e6756a6e4eb14a6033f879f561e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c2ab329ad49f01976c4a8c30c788676"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a0c2ab329ad49f01976c4a8c30c788676">compute_pdcch_indexes</a> (int ***ref, free5GRAN::pdcch_t0ss_monitoring_occasions pdcch_ss_mon_occ, int agg_level, int *reg_bundles, int height_reg_rb)</td></tr>
+<tr class="separator:a0c2ab329ad49f01976c4a8c30c788676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a58fe43d7723e410697545f45dae24d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a0a58fe43d7723e410697545f45dae24d">compute_pdsch_indexes</a> (int ***ref, bool dmrs_symbol_array[], int L, int lrb)</td></tr>
+<tr class="separator:a0a58fe43d7723e410697545f45dae24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a1f98e6756a6e4eb14a6033f879f561e6"></a>
@@ -135,6 +139,115 @@ Functions</h2></td></tr>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="physical__channel_8cpp_source.html#l00135">135</a> of file <a class="el" href="physical__channel_8cpp_source.html">physical_channel.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a0c2ab329ad49f01976c4a8c30c788676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c2ab329ad49f01976c4a8c30c788676">&#9670;&nbsp;</a></span>compute_pdcch_indexes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void free5GRAN::phy::physical_channel::compute_pdcch_indexes </td>
+          <td>(</td>
+          <td class="paramtype">int ***&#160;</td>
+          <td class="paramname"><em>ref</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">free5GRAN::pdcch_t0ss_monitoring_occasions&#160;</td>
+          <td class="paramname"><em>pdcch_ss_mon_occ</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>agg_level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>reg_bundles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>height_reg_rb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compute PDCCH and DMRS samples Position </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">ref</td><td>Reference grid for RE demapper. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pdcch_ss_mon_occ</td><td>Search Space configuration </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">agg_level</td><td>PDCCH candidate aggregation level </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">reg_bundles</td><td>REG positions after CCE-to-REG interleaving </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">height_reg_rb</td><td>Frequency-domain REG height, in RB</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="physical__channel_8cpp_source.html#l00170">170</a> of file <a class="el" href="physical__channel_8cpp_source.html">physical_channel.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a0a58fe43d7723e410697545f45dae24d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a58fe43d7723e410697545f45dae24d">&#9670;&nbsp;</a></span>compute_pdsch_indexes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void free5GRAN::phy::physical_channel::compute_pdsch_indexes </td>
+          <td>(</td>
+          <td class="paramtype">int ***&#160;</td>
+          <td class="paramname"><em>ref</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>dmrs_symbol_array</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>L</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lrb</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compute PDSCH and DMRS samples Position </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">ref</td><td>Reference grid for RE demapper. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dmrs_symbol_array</td><td>True if symbol contains DMRS, false else </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">L</td><td>Number of symbols for PDSCH </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lrb</td><td>Number of RB for PDSCH</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="physical__channel_8cpp_source.html#l00199">199</a> of file <a class="el" href="physical__channel_8cpp_source.html">physical_channel.cpp</a>.</p>
 
 </div>
 </div>
