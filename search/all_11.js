@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['time_20and_20frequency_20synchronization',['Time and frequency synchronization',['../md_mardown_files__documentation_synchronization.html',1,'']]],
   ['td_5fra',['TD_ra',['../structfree5_g_r_a_n_1_1dci__1__0__si__rnti__.html#a12c11634fabb388b4c19b8f5e952c165',1,'free5GRAN::dci_1_0_si_rnti_']]],
   ['time_5ffirst_5fpss',['time_first_pss',['../classphy.html#a511de92f1a9e60838dd5a63f0e8f6cfc',1,'phy']]],
   ['transport_5fchannel_2ecpp',['transport_channel.cpp',['../transport__channel_8cpp.html',1,'']]],

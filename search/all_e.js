@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['project_20architecture',['Project architecture',['../md_mardown_files__documentation_project_archi.html',1,'']]],
   ['parse_5fdci_5f1_5f0_5fsi_5frnti',['parse_dci_1_0_si_rnti',['../classphy.html#ad1bbed8eb8b51ef4692a1426fffa35d6',1,'phy']]],
   ['parse_5fmib',['parse_mib',['../namespacefree5_g_r_a_n_1_1utils_1_1common__utils.html#a392c266d72f8395947fca45dbc5495f1',1,'free5GRAN::utils::common_utils']]],
   ['pbch_5fpayload_5finterleaver',['PBCH_PAYLOAD_INTERLEAVER',['../namespacefree5_g_r_a_n.html#a3ec5a48633db13e74a674d7ac960e7c8',1,'free5GRAN']]],
@@ -19,6 +20,7 @@ var searchData=
   ['print_5fcell_5finfo',['print_cell_info',['../classphy.html#a7ad36ec01c344dea6ac56cb5f55a8ea0',1,'phy']]],
   ['print_5fdci_5finfo',['print_dci_info',['../classphy.html#ac9636ea6f14de2ce87e5dd312caf714a',1,'phy']]],
   ['print_5fsib1',['print_sib1',['../classphy.html#aec2a0c3ccfad5d7e0ecfaea6200a4994',1,'phy']]],
+  ['project_5farchi_2emd',['project_archi.md',['../project__archi_8md.html',1,'']]],
   ['pss_5fbase_5fsequence',['PSS_BASE_SEQUENCE',['../namespacefree5_g_r_a_n.html#af9aee423e75dabd0257f792b137c5299',1,'free5GRAN']]],
   ['pss_5fsss_5ffft_5fsize',['PSS_SSS_FFT_SIZE',['../namespacefree5_g_r_a_n.html#ae32657d8a3c996a593bf1beced8d8bce',1,'free5GRAN']]]
 ];

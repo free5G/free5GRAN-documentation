@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['samples_20extraction',['Samples extraction',['../md_mardown_files_samples_extraction.html',1,'']]],
+  ['samples_20extraction',['Samples extraction',['../md_mardown_files__documentation_samples_extraction.html',1,'']]],
   ['sample_5frate',['sample_rate',['../classrf.html#ab7e6819f0a3edba36d194ba6ea74bde9',1,'rf']]],
   ['samples_5fextraction_2emd',['samples_extraction.md',['../samples__extraction_8md.html',1,'']]],
   ['scan_5fbands',['scan_bands',['../main_8cc.html#a6ead3f78844bcb04d335cf57b327602e',1,'main.cc']]],
@@ -38,5 +38,6 @@ var searchData=
   ['sub_5fblock_5finterleaver_5fpattern',['SUB_BLOCK_INTERLEAVER_PATTERN',['../namespacefree5_g_r_a_n.html#afcbe11f728847d08f15676ba7ccc9896',1,'free5GRAN']]],
   ['subdev',['subdev',['../classrf.html#ab36c0aadb7bab7dd5565451060ac0b88',1,'rf']]],
   ['synchronization_2ecpp',['synchronization.cpp',['../synchronization_8cpp.html',1,'']]],
-  ['synchronization_2eh',['synchronization.h',['../synchronization_8h.html',1,'']]]
+  ['synchronization_2eh',['synchronization.h',['../synchronization_8h.html',1,'']]],
+  ['synchronization_2emd',['synchronization.md',['../synchronization_8md.html',1,'']]]
 ];

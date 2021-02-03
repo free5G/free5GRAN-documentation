@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['samples_20extraction',['Samples extraction',['../md_mardown_files_samples_extraction.html',1,'']]]
+  ['project_20architecture',['Project architecture',['../md_mardown_files__documentation_project_archi.html',1,'']]]
 ];
