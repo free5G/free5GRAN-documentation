@@ -1,5 +1,20 @@
 var searchData=
 [
-  ['gain',['gain',['../classrf.html#a86d87b5dad045d120f646c68ab9ddbd4',1,'rf::gain()'],['../structfound__cell__.html#aa8e2280c17994717139bfcac8398aa04',1,'found_cell_::gain()']]],
+  ['g10',['G10',['../namespacefree5_g_r_a_n.html#a45f84f070d331ba2243db3cd461e3670',1,'free5GRAN']]],
+  ['g10_5finv',['G10_INV',['../namespacefree5_g_r_a_n.html#a535462bd9ed6e12027007cd6d5e37afc',1,'free5GRAN']]],
+  ['g5',['G5',['../namespacefree5_g_r_a_n.html#a1673bc8bcd968e89ea0212bf5790e843',1,'free5GRAN']]],
+  ['g5_5finv',['G5_INV',['../namespacefree5_g_r_a_n.html#a96ea73812c0f706dcf4653b838f4aac6',1,'free5GRAN']]],
+  ['g6',['G6',['../namespacefree5_g_r_a_n.html#a251e444a6f8371a07417eb6a4e486b7c',1,'free5GRAN']]],
+  ['g6_5finv',['G6_INV',['../namespacefree5_g_r_a_n.html#ae25b2c68277cb6915b57fefdd578cb27',1,'free5GRAN']]],
+  ['g7',['G7',['../namespacefree5_g_r_a_n.html#a1f76dbae6f5b488c14226148148d4f55',1,'free5GRAN']]],
+  ['g7_5finv',['G7_INV',['../namespacefree5_g_r_a_n.html#a6e2adefdc6513d34f3b1907c5326a6e6',1,'free5GRAN']]],
+  ['g8',['G8',['../namespacefree5_g_r_a_n.html#a9b09e9bd61f6c98cb082e2d27ae10caa',1,'free5GRAN']]],
+  ['g8_5finv',['G8_INV',['../namespacefree5_g_r_a_n.html#a15c5abe7c659ebb931bbaa46359a4de0',1,'free5GRAN']]],
+  ['g9',['G9',['../namespacefree5_g_r_a_n.html#a0bc490ed6a997db7a91929725772c95f',1,'free5GRAN']]],
+  ['g9_5finv',['G9_INV',['../namespacefree5_g_r_a_n.html#a03d00faed8a568ad551dfa688712f556',1,'free5GRAN']]],
+  ['g_5fcrc_5f16',['G_CRC_16',['../namespacefree5_g_r_a_n.html#a1023b93be36873d6762624d1643d6c08',1,'free5GRAN']]],
+  ['g_5fcrc_5f24_5fa',['G_CRC_24_A',['../namespacefree5_g_r_a_n.html#a92271dae4b246942b4f96e470fcaa696',1,'free5GRAN']]],
+  ['g_5fcrc_5f24_5fc',['G_CRC_24_C',['../namespacefree5_g_r_a_n.html#ac152b3ed3fb05111a7f885521796033b',1,'free5GRAN']]],
+  ['gain',['gain',['../structfound__cell__.html#aa8e2280c17994717139bfcac8398aa04',1,'found_cell_::gain()'],['../classrf.html#a86d87b5dad045d120f646c68ab9ddbd4',1,'rf::gain()']]],
   ['gscn',['gscn',['../structfound__cell__.html#a67c0d6f23ea66bb89d53755494bda0c7',1,'found_cell_']]]
 ];

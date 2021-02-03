@@ -1,8 +1,0 @@
-<map id="phy" name="phy">
-<area shape="rect" id="node2" href="$classrf.html" title="rf" alt="" coords="69,5,107,32"/>
-<area shape="rect" id="node3" href="$structfree5_g_r_a_n_1_1dci__1__0__si__rnti__.html" title="free5GRAN::dci_1_0\l_si_rnti_" alt="" coords="17,57,159,98"/>
-<area shape="rect" id="node4" href="$structfree5_g_r_a_n_1_1band__.html" title="free5GRAN::band_" alt="" coords="21,123,155,149"/>
-<area shape="rect" id="node5" href="$structfree5_g_r_a_n_1_1ss__power__indicator__.html" title="free5GRAN::ss_power\l_indicator_" alt="" coords="11,174,165,215"/>
-<area shape="rect" id="node6" href="$structfree5_g_r_a_n_1_1pdcch__t0ss__monitoring__occasions__.html" title="free5GRAN::pdcch_t0ss\l_monitoring_occasions_" alt="" coords="5,239,171,281"/>
-<area shape="rect" id="node7" href="$structfree5_g_r_a_n_1_1mib__.html" title="free5GRAN::mib_" alt="" coords="25,305,151,332"/>
-</map>

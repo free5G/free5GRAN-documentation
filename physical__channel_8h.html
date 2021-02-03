@@ -91,11 +91,14 @@ $(document).ready(function(){initNavTree('physical__channel_8h.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;complex&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;../../variables/common_structures/common_structures.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="common__structures_8h_source.html">../../variables/common_structures/common_structures.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for physical_channel.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="physical__channel_8h__incl.png" border="0" usemap="#physical__channel_8h" alt=""/></div>
+<map name="physical__channel_8h" id="physical__channel_8h">
+<area shape="rect" id="node4" href="common__structures_8h.html" title="../../variables/common\l_structures/common_structures.h" alt="" coords="184,80,401,121"/>
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -126,19 +129,19 @@ Functions</h2></td></tr>
 <tr class="separator:ae408bde194081824f2724635f8a50713"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aaf35eeb79c2023e8c9550eaa8e5c8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a5aaf35eeb79c2023e8c9550eaa8e5c8f">free5GRAN::phy::physical_channel::decode_pbch</a> (vector&lt; complex&lt; float &gt;&gt; pbch_symbols, int i_ssb, int pci, int *bch_bits)</td></tr>
 <tr class="separator:a5aaf35eeb79c2023e8c9550eaa8e5c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f98e6756a6e4eb14a6033f879f561e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a1f98e6756a6e4eb14a6033f879f561e6">free5GRAN::phy::physical_channel::compute_pbch_indexes</a> (int ***ref, int pci)</td></tr>
-<tr class="separator:a1f98e6756a6e4eb14a6033f879f561e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c2ab329ad49f01976c4a8c30c788676"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a0c2ab329ad49f01976c4a8c30c788676">free5GRAN::phy::physical_channel::compute_pdcch_indexes</a> (int ***ref, free5GRAN::pdcch_t0ss_monitoring_occasions pdcch_ss_mon_occ, int agg_level, int *reg_bundles, int height_reg_rb)</td></tr>
-<tr class="separator:a0c2ab329ad49f01976c4a8c30c788676"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a58fe43d7723e410697545f45dae24d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a0a58fe43d7723e410697545f45dae24d">free5GRAN::phy::physical_channel::compute_pdsch_indexes</a> (int ***ref, bool dmrs_symbol_array[], int L, int lrb)</td></tr>
-<tr class="separator:a0a58fe43d7723e410697545f45dae24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e8711db335489af133e929abbc4286"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#ac7e8711db335489af133e929abbc4286">free5GRAN::phy::physical_channel::compute_pbch_indexes</a> (vector&lt; vector&lt; vector&lt; int &gt;&gt;&gt; &amp;ref, int pci)</td></tr>
+<tr class="separator:ac7e8711db335489af133e929abbc4286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4af676047513cb42e91c058b78389571"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a4af676047513cb42e91c058b78389571">free5GRAN::phy::physical_channel::compute_pdcch_indexes</a> (vector&lt; vector&lt; vector&lt; int &gt;&gt;&gt; &amp;ref, <a class="el" href="namespacefree5_g_r_a_n.html#a7643ab13a3b4c7511347b31388c3c137">free5GRAN::pdcch_t0ss_monitoring_occasions</a> pdcch_ss_mon_occ, int agg_level, int *reg_bundles, int height_reg_rb)</td></tr>
+<tr class="separator:a4af676047513cb42e91c058b78389571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b2e91dc0be8f46299e69d5fbb0310e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a2b2e91dc0be8f46299e69d5fbb0310e0">free5GRAN::phy::physical_channel::compute_pdsch_indexes</a> (vector&lt; vector&lt; vector&lt; int &gt;&gt;&gt; &amp;ref, bool dmrs_symbol_array[], int L, int lrb)</td></tr>
+<tr class="separator:a2b2e91dc0be8f46299e69d5fbb0310e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_baedfa505dda388be0f0ba948467f101.html">phy</a></li><li class="navelem"><a class="el" href="dir_1cf78a5794a90e256ecda86668ecc40d.html">physical_channel</a></li><li class="navelem"><a class="el" href="physical__channel_8h.html">physical_channel.h</a></li>
+    <li class="navelem"><a class="el" href="dir_c7be52960f9fa135e79775c2552c107e.html">free5GRAN_github</a></li><li class="navelem"><a class="el" href="dir_91cd949f10c5081a46d3e51cd7e5ed76.html">lib</a></li><li class="navelem"><a class="el" href="dir_d8fcbe7f68afdc62d59f72ddcd6f623f.html">phy</a></li><li class="navelem"><a class="el" href="dir_a0ae4354666efbe74e9cd2ba780e4d5d.html">physical_channel</a></li><li class="navelem"><a class="el" href="physical__channel_8h.html">physical_channel.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

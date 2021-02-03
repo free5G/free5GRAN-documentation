@@ -3,7 +3,7 @@ var transport__channel_8h =
     [ "compute_circular_permutation_matrix", "transport__channel_8h.html#a9816590ffed5b8600457f07a5b33b41e", null ],
     [ "compute_code_block_segmentation_info_ldpc", "transport__channel_8h.html#aba261ab0030c8c6ff3d98855a0c10c3a", null ],
     [ "compute_crc", "transport__channel_8h.html#af2045861c43170cac277b57dfd5a08b5", null ],
-    [ "compute_H_matrix_ldpc", "transport__channel_8h.html#a20a761d111b673811999013cbecbf8f7", null ],
+    [ "compute_H_matrix_ldpc", "transport__channel_8h.html#ab08772b1e4c9641f3396cf9927291ae1", null ],
     [ "compute_ldpc_base_graph", "transport__channel_8h.html#a1a38629e359fffd65a17a8cedc792f3e", null ],
     [ "compute_N_polar_code", "transport__channel_8h.html#ab1208633ad7fdd78274c98d26cef1990", null ],
     [ "compute_transport_block_size", "transport__channel_8h.html#a3201da3a52f3702dfdf0a00d6f1cdb26", null ],

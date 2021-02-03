@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['max_5fsnr',['max_snr',['../classphy.html#a590a3562fe38136ccd4fa35e055f449f',1,'phy']]],
-  ['mib_5fbits',['mib_bits',['../classphy.html#ae39e413cb2f0e2ea06c03216a68a4241',1,'phy']]],
-  ['mib_5fobject',['mib_object',['../classphy.html#a63bc014b8699567e9c6f2f96d76dedad',1,'phy']]],
-  ['mu',['mu',['../classphy.html#a27cdb406d410a74cb6602a545c22a0a6',1,'phy']]]
+  ['l_5fmax',['l_max',['../classphy.html#aeec5efbf56ffea839d667a5b46ff22ab',1,'phy::l_max()'],['../structfree5_g_r_a_n_1_1band__.html#a56423f6d6e1550cd79db0ea7587d5de6',1,'free5GRAN::band_::l_max()']]]
 ];

@@ -91,8 +91,8 @@ $(document).ready(function(){initNavTree('namespacefree5_g_r_a_n_1_1phy_1_1signa
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adfa73d3765059925f55493d3e72253b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#adfa73d3765059925f55493d3e72253b4">channelEstimation</a> (complex&lt; float &gt; *pilots, complex&lt; float &gt; *reference_pilot, int **pilot_indexes, complex&lt; float &gt; **coefficients, float &amp;snr, int num_sc, int num_symbols, int pilot_size)</td></tr>
-<tr class="separator:adfa73d3765059925f55493d3e72253b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb4d5cf5c01acf9af184ec9fc59a5ec5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#afb4d5cf5c01acf9af184ec9fc59a5ec5">channelEstimation</a> (complex&lt; float &gt; *pilots, complex&lt; float &gt; *reference_pilot, vector&lt; vector&lt; int &gt;&gt; &amp;pilot_indexes, vector&lt; vector&lt; complex&lt; float &gt;&gt;&gt; &amp;coefficients, float &amp;snr, int num_sc, int num_symbols, int pilot_size)</td></tr>
+<tr class="separator:afb4d5cf5c01acf9af184ec9fc59a5ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c9efc5befffb44a47b4bf7da81db994"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#a8c9efc5befffb44a47b4bf7da81db994">hard_demodulation</a> (vector&lt; complex&lt; float &gt;&gt; signal, int *bits, int signal_length, int modulation_scheme)</td></tr>
 <tr class="separator:a8c9efc5befffb44a47b4bf7da81db994"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19a23023b0d183c6fe6d04eec05d9492"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#a19a23023b0d183c6fe6d04eec05d9492">soft_demodulation</a> (vector&lt; complex&lt; float &gt;&gt; signal, double *soft_bits, int signal_length, int modulation_scheme)</td></tr>
@@ -101,11 +101,11 @@ Functions</h2></td></tr>
 <tr class="separator:a8d5e83e6e6cd8e7de77d5514ebc18332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab17eae040cd03cadbf5873487f81f372"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#ab17eae040cd03cadbf5873487f81f372">transpose_signal</a> (vector&lt; complex&lt; float &gt;&gt; *input_signal, float freq_offset, int sample_rate, int input_length)</td></tr>
 <tr class="separator:ab17eae040cd03cadbf5873487f81f372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33302038752412ef993f8da27488fe06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#a33302038752412ef993f8da27488fe06">channel_demapper</a> (complex&lt; float &gt; **input_signal, int ***ref, int *channel_sizes, complex&lt; float &gt; **output_channels, int ***output_indexes, int num_channels, int num_symbols, int num_sc)</td></tr>
-<tr class="separator:a33302038752412ef993f8da27488fe06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab00c7c312825e7747b30ecd74b3d341f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#ab00c7c312825e7747b30ecd74b3d341f">channel_demapper</a> (vector&lt; vector&lt; complex&lt; float &gt;&gt;&gt; &amp;input_signal, vector&lt; vector&lt; vector&lt; int &gt;&gt;&gt; &amp;ref, complex&lt; float &gt; **output_channels, vector&lt; vector&lt; vector&lt; int &gt;&gt;&gt; &amp;output_indexes, int num_channels, int num_symbols, int num_sc)</td></tr>
+<tr class="separator:ab00c7c312825e7747b30ecd74b3d341f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da5112d371a6c6015e4ac069712dd07"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#a9da5112d371a6c6015e4ac069712dd07">compute_freq_from_gscn</a> (int gscn)</td></tr>
 <tr class="separator:a9da5112d371a6c6015e4ac069712dd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb1e861c73be73affb913c0ea5e63a81"><td class="memItemLeft" align="right" valign="top">free5GRAN::pdcch_t0ss_monitoring_occasions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#adb1e861c73be73affb913c0ea5e63a81">compute_pdcch_t0_ss_monitoring_occasions</a> (int pdcch_config, int pbch_scs, int common_scs, int i)</td></tr>
+<tr class="memitem:adb1e861c73be73affb913c0ea5e63a81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacefree5_g_r_a_n.html#a7643ab13a3b4c7511347b31388c3c137">free5GRAN::pdcch_t0ss_monitoring_occasions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#adb1e861c73be73affb913c0ea5e63a81">compute_pdcch_t0_ss_monitoring_occasions</a> (int pdcch_config, int pbch_scs, int common_scs, int i)</td></tr>
 <tr class="separator:adb1e861c73be73affb913c0ea5e63a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a234694d291b8803d5a86ffc6a25efdc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#a234694d291b8803d5a86ffc6a25efdc4">compute_rb_start_lrb_dci</a> (int RIV, int n_size_bwp, int &amp;lrb, int &amp;rb_start)</td></tr>
 <tr class="separator:a234694d291b8803d5a86ffc6a25efdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,12 +117,14 @@ Functions</h2></td></tr>
 <tr class="separator:a107f440c7c9c019292bb4119654a0bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abda860f6b1be9c0b0c058c7ebdcf878b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#abda860f6b1be9c0b0c058c7ebdcf878b">compute_nre</a> (int num_symb_pdsch, int num_dmrs_symb)</td></tr>
 <tr class="separator:abda860f6b1be9c0b0c058c7ebdcf878b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb59899d5a8b5daac53a8175d2212571"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#aeb59899d5a8b5daac53a8175d2212571">fft</a> (vector&lt; complex&lt; float &gt;&gt; time_domain_signal, complex&lt; float &gt; **output_signal, int fft_size, int *cp_lengths, int *cum_sum_symb, int num_symbols, int num_sc_output, int first_symb_index, int offset)</td></tr>
-<tr class="separator:aeb59899d5a8b5daac53a8175d2212571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d75d2ef999ef1097eb14b674363f26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#ac4d75d2ef999ef1097eb14b674363f26">fft</a> (vector&lt; complex&lt; float &gt;&gt; time_domain_signal, vector&lt; vector&lt; complex&lt; float &gt;&gt;&gt; &amp;output_signal, int fft_size, int *cp_lengths, int *cum_sum_symb, int num_symbols, int num_sc_output, int first_symb_index, int offset)</td></tr>
+<tr class="separator:ac4d75d2ef999ef1097eb14b674363f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb1420565999487dd44e0c931064ae6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#a5bb1420565999487dd44e0c931064ae6">get_candidates_frames_indexes</a> (vector&lt; vector&lt; int &gt;&gt; &amp;frame_indexes, int *frame_numbers, int sfn, int index_first_pss, int num_samples_before_pss, int frame_size)</td></tr>
+<tr class="separator:a5bb1420565999487dd44e0c931064ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a33302038752412ef993f8da27488fe06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33302038752412ef993f8da27488fe06">&#9670;&nbsp;</a></span>channel_demapper()</h2>
+<a id="ab00c7c312825e7747b30ecd74b3d341f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab00c7c312825e7747b30ecd74b3d341f">&#9670;&nbsp;</a></span>channel_demapper()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,20 +132,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void free5GRAN::phy::signal_processing::channel_demapper </td>
           <td>(</td>
-          <td class="paramtype">complex&lt; float &gt; **&#160;</td>
+          <td class="paramtype">vector&lt; vector&lt; complex&lt; float &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>input_signal</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int ***&#160;</td>
+          <td class="paramtype">vector&lt; vector&lt; vector&lt; int &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>ref</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>channel_sizes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -154,7 +150,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int ***&#160;</td>
+          <td class="paramtype">vector&lt; vector&lt; vector&lt; int &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>output_indexes</em>, </td>
         </tr>
         <tr>
@@ -196,12 +192,12 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00304">304</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00299">299</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
-<a id="adfa73d3765059925f55493d3e72253b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfa73d3765059925f55493d3e72253b4">&#9670;&nbsp;</a></span>channelEstimation()</h2>
+<a id="afb4d5cf5c01acf9af184ec9fc59a5ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb4d5cf5c01acf9af184ec9fc59a5ec5">&#9670;&nbsp;</a></span>channelEstimation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,13 +217,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int **&#160;</td>
+          <td class="paramtype">vector&lt; vector&lt; int &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>pilot_indexes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">complex&lt; float &gt; **&#160;</td>
+          <td class="paramtype">vector&lt; vector&lt; complex&lt; float &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>coefficients</em>, </td>
         </tr>
         <tr>
@@ -348,7 +344,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00488">488</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00483">483</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
@@ -420,7 +416,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00254">254</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00248">248</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
@@ -448,7 +444,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00344">344</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00339">339</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
@@ -486,7 +482,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of PDSCH RE per RB</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00538">538</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00533">533</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
@@ -497,7 +493,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">free5GRAN::pdcch_t0ss_monitoring_occasions free5GRAN::phy::signal_processing::compute_pdcch_t0_ss_monitoring_occasions </td>
+          <td class="memname"><a class="el" href="namespacefree5_g_r_a_n.html#a7643ab13a3b4c7511347b31388c3c137">free5GRAN::pdcch_t0ss_monitoring_occasions</a> free5GRAN::phy::signal_processing::compute_pdcch_t0_ss_monitoring_occasions </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>pdcch_config</em>, </td>
@@ -539,7 +535,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00374">374</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00369">369</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
@@ -606,7 +602,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00516">516</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00511">511</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
@@ -659,12 +655,12 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00424">424</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00419">419</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aeb59899d5a8b5daac53a8175d2212571"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb59899d5a8b5daac53a8175d2212571">&#9670;&nbsp;</a></span>fft()</h2>
+<a id="ac4d75d2ef999ef1097eb14b674363f26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4d75d2ef999ef1097eb14b674363f26">&#9670;&nbsp;</a></span>fft()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -678,7 +674,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">complex&lt; float &gt; **&#160;</td>
+          <td class="paramtype">vector&lt; vector&lt; complex&lt; float &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>output_signal</em>, </td>
         </tr>
         <tr>
@@ -745,7 +741,61 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00549">549</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00544">544</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a5bb1420565999487dd44e0c931064ae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bb1420565999487dd44e0c931064ae6">&#9670;&nbsp;</a></span>get_candidates_frames_indexes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void free5GRAN::phy::signal_processing::get_candidates_frames_indexes </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; vector&lt; int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>frame_indexes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>frame_numbers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sfn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index_first_pss</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>num_samples_before_pss</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>frame_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00583">583</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
@@ -810,7 +860,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00443">443</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00438">438</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
@@ -861,7 +911,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00173">173</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00167">167</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
@@ -917,7 +967,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00210">210</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00204">204</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>
@@ -968,7 +1018,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00289">289</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="libphy_8cpp_source.html#l00283">283</a> of file <a class="el" href="libphy_8cpp_source.html">libphy.cpp</a>.</p>
 
 </div>
 </div>

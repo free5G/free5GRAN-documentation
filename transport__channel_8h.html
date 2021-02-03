@@ -91,12 +91,15 @@ $(document).ready(function(){initNavTree('transport__channel_8h.html','');});
 <div class="contents">
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;complex&gt;</code><br />
-<code>#include &quot;../../variables/common_structures/common_structures.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="common__structures_8h_source.html">../../variables/common_structures/common_structures.h</a>&quot;</code><br />
 <code>#include &quot;../../asn1c/nr_rrc/BCCH-DL-SCH-Message.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for transport_channel.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="transport__channel_8h__incl.png" border="0" usemap="#transport__channel_8h" alt=""/></div>
+<map name="transport__channel_8h" id="transport__channel_8h">
+<area shape="rect" id="node4" href="common__structures_8h.html" title="../../variables/common\l_structures/common_structures.h" alt="" coords="183,80,401,121"/>
+</map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -148,15 +151,15 @@ Functions</h2></td></tr>
 <tr class="separator:a9816590ffed5b8600457f07a5b33b41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac42e720870f609c16ad2de3f42fc4eb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#ac42e720870f609c16ad2de3f42fc4eb9">free5GRAN::phy::transport_channel::ldpc_decode_one_bit</a> (vector&lt; vector&lt; int &gt;&gt; R, double *soft_bits, int i, double &amp;new_bit)</td></tr>
 <tr class="separator:ac42e720870f609c16ad2de3f42fc4eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20a761d111b673811999013cbecbf8f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a20a761d111b673811999013cbecbf8f7">free5GRAN::phy::transport_channel::compute_H_matrix_ldpc</a> (int Zc, int graph, int i_ls, int **matrix, int &amp;size_i, int &amp;size_j)</td></tr>
-<tr class="separator:a20a761d111b673811999013cbecbf8f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab08772b1e4c9641f3396cf9927291ae1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#ab08772b1e4c9641f3396cf9927291ae1">free5GRAN::phy::transport_channel::compute_H_matrix_ldpc</a> (int Zc, int graph, int i_ls, vector&lt; vector&lt; int &gt;&gt; &amp;matrix, int &amp;size_i, int &amp;size_j)</td></tr>
+<tr class="separator:ab08772b1e4c9641f3396cf9927291ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17e28aa01cb95e6123f7230020957af1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a17e28aa01cb95e6123f7230020957af1">free5GRAN::phy::transport_channel::ldpc_decode</a> (double *input_bits, int N, int Zc, int graph, int K, int i_ls, int *output_sequence)</td></tr>
 <tr class="separator:a17e28aa01cb95e6123f7230020957af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6c89cb5666f20b5796822de81ac267c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#ae6c89cb5666f20b5796822de81ac267c">free5GRAN::phy::transport_channel::decode_bch</a> (int *bch_bits, bool &amp;crc_validated, int *mib_bits, int pci)</td></tr>
 <tr class="separator:ae6c89cb5666f20b5796822de81ac267c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0241cc3c982114732fa013c8e454c4b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a0241cc3c982114732fa013c8e454c4b4">free5GRAN::phy::transport_channel::decode_dci</a> (int *dci_bits, int E, int K, int *rnti, bool &amp;validated, int *decoded_dci_bits)</td></tr>
 <tr class="separator:a0241cc3c982114732fa013c8e454c4b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a861a9a950573734c17b56fe7077e4014"><td class="memItemLeft" align="right" valign="top">vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a861a9a950573734c17b56fe7077e4014">free5GRAN::phy::transport_channel::decode_dl_sch</a> (double *dl_sch_bits, int n_re, float R, int nrb, int E, bool &amp;validated, free5GRAN::dci_1_0_si_rnti dci_1_0_si_rnti)</td></tr>
+<tr class="memitem:a861a9a950573734c17b56fe7077e4014"><td class="memItemLeft" align="right" valign="top">vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a861a9a950573734c17b56fe7077e4014">free5GRAN::phy::transport_channel::decode_dl_sch</a> (double *dl_sch_bits, int n_re, float R, int nrb, int E, bool &amp;validated, <a class="el" href="namespacefree5_g_r_a_n.html#a265b84a506703a7993574d104f7437eb">free5GRAN::dci_1_0_si_rnti</a> dci_1_0_si_rnti)</td></tr>
 <tr class="separator:a861a9a950573734c17b56fe7077e4014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -164,7 +167,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_baedfa505dda388be0f0ba948467f101.html">phy</a></li><li class="navelem"><a class="el" href="dir_8036915a6d6c43d36ace0c85d590735f.html">transport_channel</a></li><li class="navelem"><a class="el" href="transport__channel_8h.html">transport_channel.h</a></li>
+    <li class="navelem"><a class="el" href="dir_c7be52960f9fa135e79775c2552c107e.html">free5GRAN_github</a></li><li class="navelem"><a class="el" href="dir_91cd949f10c5081a46d3e51cd7e5ed76.html">lib</a></li><li class="navelem"><a class="el" href="dir_d8fcbe7f68afdc62d59f72ddcd6f623f.html">phy</a></li><li class="navelem"><a class="el" href="dir_c9cb1952ed2fdd0d4acb3e3f2db19437.html">transport_channel</a></li><li class="navelem"><a class="el" href="transport__channel_8h.html">transport_channel.h</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

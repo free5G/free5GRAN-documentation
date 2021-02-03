@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['l_5fmax',['l_max',['../classphy.html#aeec5efbf56ffea839d667a5b46ff22ab',1,'phy']]]
+  ['k_5fssb',['k_ssb',['../structfree5_g_r_a_n_1_1mib__.html#aaaf308206319de5069e663d0967de216',1,'free5GRAN::mib_']]]
 ];

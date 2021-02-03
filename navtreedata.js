@@ -1,11 +1,14 @@
 var NAVTREE =
 [
   [ "free5GRAN", "index.html", [
+    [ "Samples extraction", "md_mardown_files_samples_extraction.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
-        [ "Functions", "namespacemembers_func.html", null ]
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ],
+        [ "Typedefs", "namespacemembers_type.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -30,7 +33,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"structfree5_g_r_a_n_1_1band__.html#acefa32cba580043e09781bb2b7d3c06c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

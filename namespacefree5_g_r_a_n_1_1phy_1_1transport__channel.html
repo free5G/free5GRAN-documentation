@@ -117,15 +117,15 @@ Functions</h2></td></tr>
 <tr class="separator:a9816590ffed5b8600457f07a5b33b41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac42e720870f609c16ad2de3f42fc4eb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#ac42e720870f609c16ad2de3f42fc4eb9">ldpc_decode_one_bit</a> (vector&lt; vector&lt; int &gt;&gt; R, double *soft_bits, int i, double &amp;new_bit)</td></tr>
 <tr class="separator:ac42e720870f609c16ad2de3f42fc4eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20a761d111b673811999013cbecbf8f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a20a761d111b673811999013cbecbf8f7">compute_H_matrix_ldpc</a> (int Zc, int graph, int i_ls, int **matrix, int &amp;size_i, int &amp;size_j)</td></tr>
-<tr class="separator:a20a761d111b673811999013cbecbf8f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab08772b1e4c9641f3396cf9927291ae1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#ab08772b1e4c9641f3396cf9927291ae1">compute_H_matrix_ldpc</a> (int Zc, int graph, int i_ls, vector&lt; vector&lt; int &gt;&gt; &amp;matrix, int &amp;size_i, int &amp;size_j)</td></tr>
+<tr class="separator:ab08772b1e4c9641f3396cf9927291ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17e28aa01cb95e6123f7230020957af1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a17e28aa01cb95e6123f7230020957af1">ldpc_decode</a> (double *input_bits, int N, int Zc, int graph, int K, int i_ls, int *output_sequence)</td></tr>
 <tr class="separator:a17e28aa01cb95e6123f7230020957af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6c89cb5666f20b5796822de81ac267c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#ae6c89cb5666f20b5796822de81ac267c">decode_bch</a> (int *bch_bits, bool &amp;crc_validated, int *mib_bits, int pci)</td></tr>
 <tr class="separator:ae6c89cb5666f20b5796822de81ac267c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0241cc3c982114732fa013c8e454c4b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a0241cc3c982114732fa013c8e454c4b4">decode_dci</a> (int *dci_bits, int E, int K, int *rnti, bool &amp;validated, int *decoded_dci_bits)</td></tr>
 <tr class="separator:a0241cc3c982114732fa013c8e454c4b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a861a9a950573734c17b56fe7077e4014"><td class="memItemLeft" align="right" valign="top">vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a861a9a950573734c17b56fe7077e4014">decode_dl_sch</a> (double *dl_sch_bits, int n_re, float R, int nrb, int E, bool &amp;validated, free5GRAN::dci_1_0_si_rnti dci_1_0_si_rnti)</td></tr>
+<tr class="memitem:a861a9a950573734c17b56fe7077e4014"><td class="memItemLeft" align="right" valign="top">vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#a861a9a950573734c17b56fe7077e4014">decode_dl_sch</a> (double *dl_sch_bits, int n_re, float R, int nrb, int E, bool &amp;validated, <a class="el" href="namespacefree5_g_r_a_n.html#a265b84a506703a7993574d104f7437eb">free5GRAN::dci_1_0_si_rnti</a> <a class="el" href="namespacefree5_g_r_a_n.html#a265b84a506703a7993574d104f7437eb">dci_1_0_si_rnti</a>)</td></tr>
 <tr class="separator:a861a9a950573734c17b56fe7077e4014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -169,7 +169,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00726">726</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00718">718</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -257,7 +257,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00553">553</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00545">545</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -317,12 +317,12 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00400">400</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00392">392</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a20a761d111b673811999013cbecbf8f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20a761d111b673811999013cbecbf8f7">&#9670;&nbsp;</a></span>compute_H_matrix_ldpc()</h2>
+<a id="ab08772b1e4c9641f3396cf9927291ae1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab08772b1e4c9641f3396cf9927291ae1">&#9670;&nbsp;</a></span>compute_H_matrix_ldpc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -348,7 +348,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int **&#160;</td>
+          <td class="paramtype">vector&lt; vector&lt; int &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>matrix</em>, </td>
         </tr>
         <tr>
@@ -384,7 +384,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00794">794</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00786">786</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -430,7 +430,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00479">479</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00471">471</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -545,7 +545,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00496">496</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00488">488</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -598,7 +598,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00531">531</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00523">523</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -658,7 +658,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00304">304</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00297">297</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -718,7 +718,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00962">962</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00940">940</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -792,7 +792,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l01079">1079</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l01048">1048</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -841,7 +841,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">free5GRAN::dci_1_0_si_rnti&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacefree5_g_r_a_n.html#a265b84a506703a7993574d104f7437eb">free5GRAN::dci_1_0_si_rnti</a>&#160;</td>
           <td class="paramname"><em>dci_1_0_si_rnti</em>&#160;</td>
         </tr>
         <tr>
@@ -872,7 +872,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l01151">1151</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l01116">1116</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -956,7 +956,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00832">832</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00824">824</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -1007,7 +1007,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00743">743</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00735">735</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -1101,7 +1101,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00127">127</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00125">125</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -1276,7 +1276,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00600">600</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00592">592</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>
@@ -1385,7 +1385,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00661">661</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="transport__channel_8cpp_source.html#l00653">653</a> of file <a class="el" href="transport__channel_8cpp_source.html">transport_channel.cpp</a>.</p>
 
 </div>
 </div>

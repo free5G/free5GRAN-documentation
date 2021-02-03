@@ -1,8 +1,9 @@
 var searchData=
 [
   ['common_5futils',['common_utils',['../namespacefree5_g_r_a_n_1_1utils_1_1common__utils.html',1,'free5GRAN::utils']]],
-  ['fft',['fft',['../namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#aeb59899d5a8b5daac53a8175d2212571',1,'free5GRAN::phy::signal_processing']]],
+  ['fft',['fft',['../namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#ac4d75d2ef999ef1097eb14b674363f26',1,'free5GRAN::phy::signal_processing']]],
   ['fft_5fsize',['fft_size',['../classphy.html#ae41066e9fdd06912fcae53950b5777c3',1,'phy']]],
+  ['first_5fsymb_5findex',['first_symb_index',['../structfree5_g_r_a_n_1_1pdcch__t0ss__monitoring__occasions__.html#a2309209d045c5c8715eb6cdb286dc92b',1,'free5GRAN::pdcch_t0ss_monitoring_occasions_']]],
   ['found_5fcell',['found_cell',['../main_8cc.html#ace3aaf8cb21bf27db4c61c2fd76c3ad5',1,'main.cc']]],
   ['found_5fcell_5f',['found_cell_',['../structfound__cell__.html',1,'']]],
   ['frame_5fdata',['frame_data',['../classphy.html#a249515ceef0675b14a6955c945a70c85',1,'phy']]],

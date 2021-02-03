@@ -41,6 +41,7 @@ var classphy =
     [ "rf_device", "classphy.html#a264d3969392ed7077bbaff5e1ab8f4ee", null ],
     [ "scs", "classphy.html#a6f6f0b4c44781f1264531dad6ec79c95", null ],
     [ "sib1", "classphy.html#a4020ef9a4c88da4e45797ddfb0c91131", null ],
+    [ "ss_pwr", "classphy.html#ab4d718890c0305dca3fe3afef50cd1f5", null ],
     [ "ssb_period", "classphy.html#a498aa07a6d6a5a90d73a71aa8206a1dc", null ],
     [ "time_first_pss", "classphy.html#a511de92f1a9e60838dd5a63f0e8f6cfc", null ]
 ];

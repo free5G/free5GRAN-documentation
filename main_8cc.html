@@ -108,20 +108,10 @@ $(document).ready(function(){initNavTree('main_8cc.html','');});
 <code>#include &lt;boost/log/utility/setup/file.hpp&gt;</code><br />
 <code>#include &lt;boost/log/utility/setup/common_attributes.hpp&gt;</code><br />
 <code>#include &quot;<a class="el" href="rf_8h_source.html">rf/rf.h</a>&quot;</code><br />
-<code>#include &quot;../lib/variables/common_variables/common_variables.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="common__variables_8h_source.html">../lib/variables/common_variables/common_variables.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="phy_8h_source.html">phy/phy.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="libphy_8h_source.html">../lib/phy/libphy/libphy.h</a>&quot;</code><br />
 <code>#include &quot;../lib/asn1c/nr_rrc/SIB1.h&quot;</code><br />
-</div><div class="textblock"><div class="dynheader">
-Include dependency graph for main.cc:</div>
-<div class="dyncontent">
-<div class="center"><img src="main_8cc__incl.png" border="0" usemap="#main_8cc" alt=""/></div>
-<map name="main_8cc" id="main_8cc">
-<area shape="rect" id="node19" href="rf_8h.html" title="rf/rf.h" alt="" coords="2389,184,2443,211"/>
-<area shape="rect" id="node24" href="phy_8h.html" title="phy/phy.h" alt="" coords="2759,87,2838,114"/>
-<area shape="rect" id="node28" href="libphy_8h.html" title="../lib/phy/libphy/libphy.h" alt="" coords="2870,87,3029,114"/>
-</map>
-</div>
 </div>
 <p><a href="main_8cc_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -137,10 +127,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a037bbd8f663e013332ca8dc1c6867ac8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cc.html#a037bbd8f663e013332ca8dc1c6867ac8">search_cell_with_defined_params</a> (double frequency, double ssb_period, string rf_address, free5GRAN::band band)</td></tr>
-<tr class="separator:a037bbd8f663e013332ca8dc1c6867ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6419960888b50f0a60290ac0cf1117f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cc.html#ad6419960888b50f0a60290ac0cf1117f">scan_bands</a> (vector&lt; free5GRAN::band &gt; BANDS, double ssb_period, string rf_address)</td></tr>
-<tr class="separator:ad6419960888b50f0a60290ac0cf1117f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52f55a9cf893a5926c4f329d40c7d735"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cc.html#a52f55a9cf893a5926c4f329d40c7d735">search_cell_with_defined_params</a> (double frequency, double ssb_period, string rf_address, <a class="el" href="namespacefree5_g_r_a_n.html#acc4283b0471778b922c81bfe09e7884b">free5GRAN::band</a> band, int input_gain)</td></tr>
+<tr class="separator:a52f55a9cf893a5926c4f329d40c7d735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ead3f78844bcb04d335cf57b327602e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cc.html#a6ead3f78844bcb04d335cf57b327602e">scan_bands</a> (vector&lt; <a class="el" href="namespacefree5_g_r_a_n.html#acc4283b0471778b922c81bfe09e7884b">free5GRAN::band</a> &gt; BANDS, double ssb_period, string rf_address, int input_gain)</td></tr>
+<tr class="separator:a6ead3f78844bcb04d335cf57b327602e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdc7fd375b49365ec61b7eeb6aa7d205"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cc.html#abdc7fd375b49365ec61b7eeb6aa7d205">init_logging</a> (string level)</td></tr>
 <tr class="separator:abdc7fd375b49365ec61b7eeb6aa7d205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cc.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
@@ -178,7 +168,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cc_source.html#l00403">403</a> of file <a class="el" href="main_8cc_source.html">main.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cc_source.html#l00396">396</a> of file <a class="el" href="main_8cc_source.html">main.cc</a>.</p>
 
 </div>
 </div>
@@ -212,8 +202,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad6419960888b50f0a60290ac0cf1117f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6419960888b50f0a60290ac0cf1117f">&#9670;&nbsp;</a></span>scan_bands()</h2>
+<a id="a6ead3f78844bcb04d335cf57b327602e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ead3f78844bcb04d335cf57b327602e">&#9670;&nbsp;</a></span>scan_bands()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +211,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void scan_bands </td>
           <td>(</td>
-          <td class="paramtype">vector&lt; free5GRAN::band &gt;&#160;</td>
+          <td class="paramtype">vector&lt; <a class="el" href="namespacefree5_g_r_a_n.html#acc4283b0471778b922c81bfe09e7884b">free5GRAN::band</a> &gt;&#160;</td>
           <td class="paramname"><em>BANDS</em>, </td>
         </tr>
         <tr>
@@ -234,7 +224,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>rf_address</em>&#160;</td>
+          <td class="paramname"><em>rf_address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>input_gain</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -244,12 +240,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cc_source.html#l00180">180</a> of file <a class="el" href="main_8cc_source.html">main.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cc_source.html#l00181">181</a> of file <a class="el" href="main_8cc_source.html">main.cc</a>.</p>
 
 </div>
 </div>
-<a id="a037bbd8f663e013332ca8dc1c6867ac8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a037bbd8f663e013332ca8dc1c6867ac8">&#9670;&nbsp;</a></span>search_cell_with_defined_params()</h2>
+<a id="a52f55a9cf893a5926c4f329d40c7d735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52f55a9cf893a5926c4f329d40c7d735">&#9670;&nbsp;</a></span>search_cell_with_defined_params()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,8 +271,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">free5GRAN::band&#160;</td>
-          <td class="paramname"><em>band</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacefree5_g_r_a_n.html#acc4283b0471778b922c81bfe09e7884b">free5GRAN::band</a>&#160;</td>
+          <td class="paramname"><em>band</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>input_gain</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -286,7 +288,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cc_source.html#l00312">312</a> of file <a class="el" href="main_8cc_source.html">main.cc</a>.</p>
+<p class="definition">Definition at line <a class="el" href="main_8cc_source.html#l00310">310</a> of file <a class="el" href="main_8cc_source.html">main.cc</a>.</p>
 
 </div>
 </div>
@@ -295,7 +297,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="main_8cc.html">main.cc</a></li>
+    <li class="navelem"><a class="el" href="dir_c7be52960f9fa135e79775c2552c107e.html">free5GRAN_github</a></li><li class="navelem"><a class="el" href="dir_8b0879890c1aecd8d18d2f8340e3c271.html">src</a></li><li class="navelem"><a class="el" href="main_8cc.html">main.cc</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

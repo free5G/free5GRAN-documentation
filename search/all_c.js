@@ -1,17 +1,18 @@
 var searchData=
 [
-  ['parse_5fdci_5f1_5f0_5fsi_5frnti',['parse_dci_1_0_si_rnti',['../classphy.html#ad1bbed8eb8b51ef4692a1426fffa35d6',1,'phy']]],
-  ['parse_5fmib',['parse_mib',['../namespacefree5_g_r_a_n_1_1utils_1_1common__utils.html#a392c266d72f8395947fca45dbc5495f1',1,'free5GRAN::utils::common_utils']]],
-  ['pci',['pci',['../classphy.html#a9b9e75950d828e2e1d4240f9a2aff2a4',1,'phy']]],
-  ['pdcch_5fss_5fmon_5focc',['pdcch_ss_mon_occ',['../classphy.html#a0c77cb4623629ddf17da95a754710e9f',1,'phy']]],
-  ['phy',['phy',['../classphy.html',1,'phy'],['../classphy.html#add25a30c166802fb7915038b13334cbb',1,'phy::phy(rf *rf_dev, double ssb_period, int fft_size, int scs, free5GRAN::band band_obj)'],['../classphy.html#a9f580b25a4356b5dde64c38b84c56740',1,'phy::phy()']]],
-  ['phy_2ecpp',['phy.cpp',['../phy_8cpp.html',1,'']]],
-  ['phy_2eh',['phy.h',['../phy_8h.html',1,'']]],
-  ['phy_5fobj',['phy_obj',['../structfound__cell__.html#a6e9ce65526d94ace3966e7ff1245b387',1,'found_cell_']]],
-  ['physical_5fchannel_2ecpp',['physical_channel.cpp',['../physical__channel_8cpp.html',1,'']]],
-  ['physical_5fchannel_2eh',['physical_channel.h',['../physical__channel_8h.html',1,'']]],
-  ['polar_5fdecode',['polar_decode',['../namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#ad3122fca765b33b5d72c252542566237',1,'free5GRAN::phy::transport_channel']]],
-  ['print_5fcell_5finfo',['print_cell_info',['../classphy.html#a7ad36ec01c344dea6ac56cb5f55a8ea0',1,'phy']]],
-  ['print_5fdci_5finfo',['print_dci_info',['../classphy.html#ac9636ea6f14de2ce87e5dd312caf714a',1,'phy']]],
-  ['print_5fsib1',['print_sib1',['../classphy.html#aec2a0c3ccfad5d7e0ecfaea6200a4994',1,'phy']]]
+  ['n0',['n0',['../structfree5_g_r_a_n_1_1pdcch__t0ss__monitoring__occasions__.html#a7b80d5afd1eda4d14e1c295321fb8157',1,'free5GRAN::pdcch_t0ss_monitoring_occasions_']]],
+  ['n_5fid_5f1',['n_id_1',['../classphy.html#af8d0cf08fb92c11de55a0e18b0eb120b',1,'phy']]],
+  ['n_5fid_5f2',['n_id_2',['../classphy.html#a414092a74ef3bfb4d28e98004c68558c',1,'phy']]],
+  ['n_5frb_5fcoreset',['n_rb_coreset',['../structfree5_g_r_a_n_1_1pdcch__t0ss__monitoring__occasions__.html#aee0ecca6500b637b7086c026b11e40a5',1,'free5GRAN::pdcch_t0ss_monitoring_occasions_']]],
+  ['n_5fsize_5fbwp',['n_size_bwp',['../classphy.html#a8ca34848ae957297c1f24f76e9e5a5a0',1,'phy']]],
+  ['n_5fsymb_5fcoreset',['n_symb_coreset',['../structfree5_g_r_a_n_1_1pdcch__t0ss__monitoring__occasions__.html#a75e7223f1adb74858836f216d3d0f7b1',1,'free5GRAN::pdcch_t0ss_monitoring_occasions_']]],
+  ['num_5fsc_5fssb',['NUM_SC_SSB',['../namespacefree5_g_r_a_n.html#a5d684b0033a839d606371647feaff405',1,'free5GRAN']]],
+  ['num_5fslots_5fper_5fframe',['num_slots_per_frame',['../classphy.html#a81ec5c3ec03b28a5b5f898bbc6d52ca7',1,'phy']]],
+  ['num_5fss_5fslots',['num_ss_slots',['../structfree5_g_r_a_n_1_1pdcch__t0ss__monitoring__occasions__.html#ab75ffbffad918eee4ffc715d188939e4',1,'free5GRAN::pdcch_t0ss_monitoring_occasions_']]],
+  ['num_5fsupported_5fbands',['NUM_SUPPORTED_BANDS',['../namespacefree5_g_r_a_n.html#a85ce2dd99a0129ae74eee00272b57f97',1,'free5GRAN']]],
+  ['num_5fsymbol_5fpbch_5fssb',['NUM_SYMBOL_PBCH_SSB',['../namespacefree5_g_r_a_n.html#aaf9786ff9dc2042dbfec74303207d406',1,'free5GRAN']]],
+  ['num_5fsymbols_5fssb',['NUM_SYMBOLS_SSB',['../namespacefree5_g_r_a_n.html#a3cbfc100b9701168a6c3631e656bd1d3',1,'free5GRAN']]],
+  ['number',['number',['../structfree5_g_r_a_n_1_1band__.html#ad96fd2d031cce53bd97a665002feaa80',1,'free5GRAN::band_']]],
+  ['number_5freg_5fper_5fcce',['NUMBER_REG_PER_CCE',['../namespacefree5_g_r_a_n.html#af74528b68a889f2e171c0f2ddebe0af5',1,'free5GRAN']]],
+  ['number_5fsymbols_5fper_5fslot_5fnormal_5fcp',['NUMBER_SYMBOLS_PER_SLOT_NORMAL_CP',['../namespacefree5_g_r_a_n.html#a1bf104c3d24f54825f50513da8499210',1,'free5GRAN']]]
 ];
