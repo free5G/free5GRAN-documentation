@@ -85,10 +85,10 @@ $(document).ready(function(){initNavTree('md_mardown_files__documentation_channe
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Over the air channel, the signal is modified by interference and noise, and cannot be decoded as-is. Equalization aims at correcting the received signal in order to recover the sent signal before decoding. This is done by estimating channel modifications for each RE grid point, based on pilot signals reception, and by applying inverse modification to received samples. The following Figure shows PDCCH samples before and after channel equalization: </p><div class="image">
-<img src="https://github.com/free5G/free5GRAN-documentation/blob/master/doc_images/no_est.png" alt="PDCCH before equalization"/>
+<img src="https://raw.githubusercontent.com/free5G/free5GRAN-documentation/master/doc_images/no_est.png" alt="PDCCH before equalization"/>
 </div>
  <div class="image">
-<img src="https://github.com/free5G/free5GRAN-documentation/blob/master/doc_images/est.png" alt="PDCCH after equalization"/>
+<img src="https://raw.githubusercontent.com/free5G/free5GRAN-documentation/master/doc_images/est.png" alt="PDCCH after equalization"/>
 </div>
 <p>Channel estimation is a vast research topic, and different methods are proposed. Some of those methods are theoretical and cannot be implemented in concrete systems. Some other methods have high computational complexities. Least Square Estimator (LSE) is implemented in the current release which does not take into account channel noise. Noise mitigating estimation methods are planned to be added in future releases.</p>
 <p>Channel estimation aims at computing, for each RE, a channel coefficient that represents channel perturbation effects. Correction <code>X</code>, called channel equalization, can be obtained by <code>X = H . Y</code> where <code>Y</code> are received samples and <code>H</code> are channel coefficients.</p>
