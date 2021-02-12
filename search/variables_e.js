@@ -21,5 +21,5 @@ var searchData=
   ['sss_5fbase_5fx0_5fsequence',['SSS_BASE_X0_SEQUENCE',['../namespacefree5_g_r_a_n.html#a5bc6616c8b1c8bc12385e45a5507d161',1,'free5GRAN']]],
   ['sss_5fbase_5fx1_5fsequence',['SSS_BASE_X1_SEQUENCE',['../namespacefree5_g_r_a_n.html#a323637ea39fec81f3e08aebc5e09b4bd',1,'free5GRAN']]],
   ['sub_5fblock_5finterleaver_5fpattern',['SUB_BLOCK_INTERLEAVER_PATTERN',['../namespacefree5_g_r_a_n.html#afcbe11f728847d08f15676ba7ccc9896',1,'free5GRAN']]],
-  ['subdev',['subdev',['../classrf.html#ab36c0aadb7bab7dd5565451060ac0b88',1,'rf']]]
+  ['subdev',['subdev',['../classrf.html#aaedea1ac0d6a26642b34105dd41c251b',1,'rf']]]
 ];

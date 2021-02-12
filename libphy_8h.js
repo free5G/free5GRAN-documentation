@@ -11,7 +11,7 @@ var libphy_8h =
     [ "compute_rb_start_lrb_dci", "libphy_8h.html#a234694d291b8803d5a86ffc6a25efdc4", null ],
     [ "fft", "libphy_8h.html#ac4d75d2ef999ef1097eb14b674363f26", null ],
     [ "get_candidates_frames_indexes", "libphy_8h.html#a5bb1420565999487dd44e0c931064ae6", null ],
-    [ "get_pdsch_dmrs_symbols", "libphy_8h.html#af3a67682ee77d537fcf488ab168dfa46", null ],
+    [ "get_pdsch_dmrs_symbols", "libphy_8h.html#a83c6c9b2be66c0846b71e3b0bc86c4e7", null ],
     [ "hard_demodulation", "libphy_8h.html#a8c9efc5befffb44a47b4bf7da81db994", null ],
     [ "soft_demodulation", "libphy_8h.html#a19a23023b0d183c6fe6d04eec05d9492", null ],
     [ "transpose_signal", "libphy_8h.html#ab17eae040cd03cadbf5873487f81f372", null ]

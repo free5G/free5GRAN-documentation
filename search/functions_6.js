@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['init_5flogging',['init_logging',['../main_8cc.html#abdc7fd375b49365ec61b7eeb6aa7d205',1,'main.cc']]]
+  ['init_5flogging',['init_logging',['../main_8cc.html#ae71ff90495bc80dc6462d30341369ec1',1,'main.cc']]]
 ];

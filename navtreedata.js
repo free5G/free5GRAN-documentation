@@ -1,6 +1,8 @@
 var NAVTREE =
 [
   [ "free5GRAN", "index.html", [
+    [ "Channel estimation and equalization", "md_mardown_files__documentation_channel_estimation.html", null ],
+    [ "PHY layer components", "md_mardown_files__documentation_phy_components.html", null ],
     [ "Project architecture", "md_mardown_files__documentation_project_archi.html", null ],
     [ "Samples extraction", "md_mardown_files__documentation_samples_extraction.html", null ],
     [ "Time and frequency synchronization", "md_mardown_files__documentation_synchronization.html", null ],
@@ -36,7 +38,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"structfree5_g_r_a_n_1_1band__.html#a77f3154b063d821fe702128f99aab011"
+"structfree5_g_r_a_n_1_1band__.html#a36a69909f68edf8084d45d1776bfd009"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

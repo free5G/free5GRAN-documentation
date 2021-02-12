@@ -9,7 +9,7 @@ var searchData=
   ['decode_5fpbch',['decode_pbch',['../namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a5aaf35eeb79c2023e8c9550eaa8e5c8f',1,'free5GRAN::phy::physical_channel']]],
   ['decode_5fpdcch',['decode_pdcch',['../namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#a6db341fb514feb10806de7988a4d11e2',1,'free5GRAN::phy::physical_channel']]],
   ['decode_5fpdsch',['decode_pdsch',['../namespacefree5_g_r_a_n_1_1phy_1_1physical__channel.html#ae408bde194081824f2724635f8a50713',1,'free5GRAN::phy::physical_channel']]],
-  ['device_5fargs',['device_args',['../classrf.html#a0a57422d92198edc9b210b6d440d215b',1,'rf']]],
+  ['device_5fargs',['device_args',['../classrf.html#a90ae3581e897d174527d5d99226d45c5',1,'rf']]],
   ['dmrs_5fbase_5fx1_5fsequence',['DMRS_BASE_X1_SEQUENCE',['../namespacefree5_g_r_a_n.html#a42751c3b0c03f2f05d07c5d8ec349e33',1,'free5GRAN']]],
   ['dmrs_5ftype_5fa_5fposition',['dmrs_type_a_position',['../structfree5_g_r_a_n_1_1mib__.html#adcac5427e1ca7a0ae9d8c660c9229e2c',1,'free5GRAN::mib_']]]
 ];

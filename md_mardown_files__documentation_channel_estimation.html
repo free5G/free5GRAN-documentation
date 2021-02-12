@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>free5GRAN: File Members</title>
+<title>free5GRAN: Channel estimation and equalization</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,7 +62,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('globals.html','');});
+$(document).ready(function(){initNavTree('md_mardown_files__documentation_channel_estimation.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -79,25 +79,22 @@ $(document).ready(function(){initNavTree('globals.html','');});
 </iframe>
 </div>
 
+<div class="header">
+  <div class="headertitle">
+<div class="title">Channel estimation and equalization </div>  </div>
+</div><!--header-->
 <div class="contents">
-<div class="textblock">Here is a list of all file members with links to the files they belong to:</div><ul>
-<li>found_cell
-: <a class="el" href="main_8cc.html#ace3aaf8cb21bf27db4c61c2fd76c3ad5">main.cc</a>
-</li>
-<li>init_logging()
-: <a class="el" href="main_8cc.html#ae71ff90495bc80dc6462d30341369ec1">main.cc</a>
-</li>
-<li>main()
-: <a class="el" href="main_8cc.html#a0ddf1224851353fc92bfbff6f499fa97">main.cc</a>
-</li>
-<li>scan_bands()
-: <a class="el" href="main_8cc.html#a0833776fc385a76e8ca349e9f8178766">main.cc</a>
-</li>
-<li>search_cell_with_defined_params()
-: <a class="el" href="main_8cc.html#ac92d6ef8db136071761eb2b87acfacdd">main.cc</a>
-</li>
-</ul>
-</div><!-- contents -->
+<div class="textblock"><p>Over the air channel, the signal is modified by interference and noise, and cannot be decoded as-is. Equalization aims at correcting the received signal in order to recover the sent signal before decoding. This is done by estimating channel modifications for each RE grid point, based on pilot signals reception, and by applying inverse modification to received samples. The following Figure shows PDCCH samples before and after channel equalization: </p><div class="image">
+<img src="/home/vnr/doc_free5GRAN/mardown_files/Documentation/images/no_est.png" alt="PDCCH before equalization"/>
+</div>
+ <div class="image">
+<img src="/home/vnr/doc_free5GRAN/mardown_files/Documentation/images/est.png" alt="PDCCH after equalization"/>
+</div>
+<p>Channel estimation is a vast research topic, and different methods are proposed. Some of those methods are theoretical and cannot be implemented in concrete systems. Some other methods have high computational complexities. Least Square Estimator (LSE) is implemented in the current release which does not take into account channel noise. Noise mitigating estimation methods are planned to be added in future releases.</p>
+<p>Channel estimation aims at computing, for each RE, a channel coefficient that represents channel perturbation effects. Correction <code>X</code>, called channel equalization, can be obtained by <code>X = H . Y</code> where <code>Y</code> are received samples and <code>H</code> are channel coefficients.</p>
+<p>LSE consists of analysing pilots channel coefficients and propagating values by linear interpolation for non-pilot RE. Different pilots, called DMRS, are used according to the type of the physical channel. The first step is to compute pilots values. Then, channel coefficients are computed, for each <code>i,j</code> (symbol and sub-carrier index) in pilots position indexes:</p>
+<div class="fragment"><div class="line">h(i,j) = x(i,j) / y(i,j)</div></div><!-- fragment --><p>Linear interpolation is performed in the frequency domain first and then, if needed, in the time domain for recovering channel coefficients at every RE grid position. </p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

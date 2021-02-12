@@ -5,6 +5,7 @@ var searchData=
   ['cell_5fsynchronization',['cell_synchronization',['../classphy.html#a22973a65ab71675f2b5b38c6d07a78e5',1,'phy']]],
   ['center_5ffrequency',['center_frequency',['../classrf.html#a41880285a02fadb53a608e6f36f8d38b',1,'rf']]],
   ['channel_5fdemapper',['channel_demapper',['../namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#ab00c7c312825e7747b30ecd74b3d341f',1,'free5GRAN::phy::signal_processing']]],
+  ['channel_5festimation_2emd',['channel_estimation.md',['../channel__estimation_8md.html',1,'']]],
   ['channelestimation',['channelEstimation',['../namespacefree5_g_r_a_n_1_1phy_1_1signal__processing.html#afb4d5cf5c01acf9af184ec9fc59a5ec5',1,'free5GRAN::phy::signal_processing']]],
   ['common_5fcp_5flength',['common_cp_length',['../classphy.html#ab791a0da3e308bfb62ae72aa4f42c386',1,'phy']]],
   ['common_5fmatrices_2ecpp',['common_matrices.cpp',['../common__matrices_8cpp.html',1,'']]],
@@ -36,5 +37,6 @@ var searchData=
   ['correlate',['correlate',['../namespacefree5_g_r_a_n_1_1phy_1_1synchronization.html#aa86e4b5e4573c0277974a7f1bb183d2a',1,'free5GRAN::phy::synchronization']]],
   ['crc_5fvalidate',['crc_validate',['../namespacefree5_g_r_a_n_1_1phy_1_1transport__channel.html#ab31b4a61f7f22e7bc3c8288716a28d14',1,'free5GRAN::phy::transport_channel']]],
   ['crc_5fvalidated',['crc_validated',['../classphy.html#adee10ecff8e1797f732f98f1b7319365',1,'phy']]],
-  ['cross_5fcorrelation',['cross_correlation',['../namespacefree5_g_r_a_n_1_1phy_1_1synchronization.html#a7225ff7bc7fb14cb513dd49ab124710a',1,'free5GRAN::phy::synchronization']]]
+  ['cross_5fcorrelation',['cross_correlation',['../namespacefree5_g_r_a_n_1_1phy_1_1synchronization.html#a7225ff7bc7fb14cb513dd49ab124710a',1,'free5GRAN::phy::synchronization']]],
+  ['channel_20estimation_20and_20equalization',['Channel estimation and equalization',['../md_mardown_files__documentation_channel_estimation.html',1,'']]]
 ];

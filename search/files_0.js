@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['channel_5festimation_2emd',['channel_estimation.md',['../channel__estimation_8md.html',1,'']]],
   ['common_5fmatrices_2ecpp',['common_matrices.cpp',['../common__matrices_8cpp.html',1,'']]],
   ['common_5fmatrices_2eh',['common_matrices.h',['../common__matrices_8h.html',1,'']]],
   ['common_5fstructures_2ecpp',['common_structures.cpp',['../common__structures_8cpp.html',1,'']]],
